@@ -1,0 +1,5 @@
+numpy==1.24.1
+pandas==1.5.2
+pymongo==4.3.3
+SQLAlchemy==2.0.4
+SQLAlchemy_Utils==0.40.0
