@@ -1,6 +1,9 @@
+#!/bin/bash 
 # Waiting for the EOF
 echo "Waiting for the data"
-while [ ! -f "${PYTHON_MONGODB_EOF}" ]; do sleep 1; done
+while [ ! -f "${PYTHON_MONGODB_EOF}" ]
+ do sleep 1
+done
 echo "Zipepd data uploaded"
 
 #Unzip the data
